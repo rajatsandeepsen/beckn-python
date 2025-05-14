@@ -11,7 +11,7 @@ base_template = OPENAPI_BASE_URL + "/api/{name}/openapi.json"
 cmd_template = """openapi-generator-cli generate \
     -g python-pydantic-v1 \
     --package-name {name} \
-    -o ./package \
+    -o ./beckn/package \
     -i {url} 
 """
 

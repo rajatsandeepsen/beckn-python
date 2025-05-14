@@ -1,8 +1,5 @@
 [project]
 name = "beckn-python"
-version = "0.1.0"
-description = "Python SDK for Beckn"
-readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "openapi-generator-cli[jdk4py]>=7.13.0.post0",

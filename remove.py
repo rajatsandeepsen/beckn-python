@@ -24,21 +24,22 @@ def RemoveFiles(path):
                 print(f"Removed folder: {item_path}")
 
 list_of_paths = [
-    "./package/.github",
-    "./package/.openapi-generator",
-    "./package/test",
-    "./package/.travis.yml",
-    # "./package/pyproject.toml",
-    "./package/git_push.sh",
-    "./package/.gitlab-ci.yml",
-    "./package/.openapi-generator-ignore",
-    "./package/setup.cfg",
-    "./package/setup.py",
-    "./package/test-requirements.txt",
-    "./package/tox.ini",
-    "./package/README.md",
-    "./package/docs",
-    "./package/requirements.txt",
+    "./beckn/package/.github",
+    "./beckn/package/.gitignore",
+    "./beckn/package/.openapi-generator",
+    "./beckn/package/test",
+    "./beckn/package/.travis.yml",
+    "./beckn/package/pyproject.toml",
+    "./beckn/package/git_push.sh",
+    "./beckn/package/.gitlab-ci.yml",
+    "./beckn/package/.openapi-generator-ignore",
+    "./beckn/package/setup.cfg",
+    "./beckn/package/setup.py",
+    "./beckn/package/test-requirements.txt",
+    "./beckn/package/tox.ini",
+    "./beckn/package/README.md",
+    "./beckn/package/docs",
+    "./beckn/package/requirements.txt",
 ]
 
 for path in list_of_paths:

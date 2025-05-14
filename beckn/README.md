@@ -1,4 +1,23 @@
-from beckn import Transaction
+# Beckn Protocol client for Python
+
+### Installation
+
+```bash
+pip install beckn-python
+```
+
+or use the OG package manager:
+
+```bash
+uv add beckn-python
+```
+
+### Usage
+
+```python
+from beckn_python 
+  import Transaction,
+      # Meta, Registry
 
 client = Transaction.ApiClient(
     configuration=Transaction.Configuration(
@@ -17,3 +36,4 @@ data = Transaction.BecknApplicationPlatformBAPApi(
     )
 
 print(data)
+```
